@@ -52,7 +52,7 @@ public class GasEtaActivity extends AppCompatActivity {
         objetoAlteracao.setNomeDoCombustivel("Gasolina Aditivada");
         objetoAlteracao.setPrecoDoCombustivel(6.59);
         objetoAlteracao.setRecomendacao("Abastecer com Aditivada");
-        controller.alterar(objetoAlteracao);
+        //controller.alterar(objetoAlteracao);
 
         editGasolina = findViewById(R.id.editGasolina);
         editEtanol = findViewById(R.id.editEtanol);
