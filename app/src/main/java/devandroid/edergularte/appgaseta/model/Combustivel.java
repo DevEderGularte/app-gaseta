@@ -1,9 +1,18 @@
 package devandroid.edergularte.appgaseta.model;
 
 public class Combustivel {
+    private Integer id;
     private String nomeDoCombustivel;
     private String recomendacao;
     private double precoDoCombustivel;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getNomeDoCombustivel() {
         return nomeDoCombustivel;
