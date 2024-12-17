@@ -54,7 +54,7 @@ public class GasEtaActivity extends AppCompatActivity {
         objetoAlteracao.setRecomendacao("Abastecer com Aditivada");
         //controller.alterar(objetoAlteracao);
 
-        controller.deletar(4);
+        controller.deletar(13);
 
         editGasolina = findViewById(R.id.editGasolina);
         editEtanol = findViewById(R.id.editEtanol);
